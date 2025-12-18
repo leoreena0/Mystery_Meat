@@ -22,4 +22,4 @@ Nucleotide Mystery Meat/   |    Folder containing nucleotide alignments and phyl
 
 Translated Mystery Meat/    |   Folder containing protein alignments and phylogenetic trees
 
-env/                           Local Python environment (not required for assessment submission)
+env/             |              Local Python environment (not required for assessment submission)
