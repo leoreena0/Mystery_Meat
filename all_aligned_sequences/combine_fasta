@@ -1,0 +1,18 @@
+#!/bin/bash
+
+input= all_aligned_sequences
+# Output file (one directory back)
+output="../all_sequences.fasta"
+
+
+# Remove old file if it exists
+rm -f "$output"
+
+# Loop through all TXT files in the folder
+for file in *.fasta
+do
+    echo "Adding $file ..."
+    cat "$file" >> "$output"
+    echo "" >> "$output"   # blank line between entries
+done
+
