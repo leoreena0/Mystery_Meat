@@ -1,6 +1,6 @@
 ### Mystery Meat Assessment
 
-
+#### Repository contents
 | File / Folder              | Description                                                                          |
 | -------------------------- | ------------------------------------------------------------------------------------ |
 | `all_sequences.fasta`      | Combined FASTA file containing reference mitochondrial sequences and mystery samples |
