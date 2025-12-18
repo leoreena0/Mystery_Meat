@@ -16,11 +16,7 @@ This repository contains GitBash nano file scripts used to concatenate initial s
 | `env/`                     | Local Python environment (not required for assessment submission)                    |
 
 ### Required packages
-Installation
-
 This project requires GitBash, Python and the following packages:
-
-pip install biopython
-pip install pandas
-
+`pip install biopython`
+`pip install pandas`
 Jalview was used separately for alignment and tree construction
