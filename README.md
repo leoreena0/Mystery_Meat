@@ -10,10 +10,8 @@ This repository contains GitBash nano file scripts used to concatenate initial s
 | `translated.fasta`         | Output FASTA file containing translated protein sequences                            |
 | `aligned_translated.txt`   | Aligned amino-acid sequences (generated using Jalview/MAFFT)                         |
 | `all_aligned_sequences/`   | Folder containing aligned nucleotide sequences                                       |
-| `samples/`                 | Original FASTA files for individual mystery samples                                  |
-| `Nucleotide Mystery Meat/` | Folder containing nucleotide alignments and phylogenetic trees                       |
-| `Translated Mystery Meat/` | Folder containing protein alignments and phylogenetic trees                          |
-| `env/`                     | Local Python environment (not required for assessment submission)                    |
+| `samples/`                 | Original FASTQ  files for individual mystery samples with GitBash script to convert them each to FASTA and concatenate                            |
+
 
 ### Required packages
 This project requires GitBash, Python and the following packages:
