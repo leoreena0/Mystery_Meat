@@ -21,24 +21,31 @@ This project requires GitBash, Python and the following packages:
 `pip install biopython`
 `pip install pandas`
 
-Jalview was used separately for alignment and tree construction
+**Jalview** was used separately for alignment and **iTOL** for tree construction
 
 ### Workflow Summary
 #### 1. Sequence Preparation
 Reference sequences and mystery samples were combined into a single FASTA file (all_sequences.fasta).
+
 Sequences were visually inspected for quality and ambiguous regions.
 
 #### 2. ORF Detection and Translation
 DNA sequences were translated using translate_sequences.py.
+
 The script translates all three forward reading frames and selects the longest ORF.
+
 This step was used to assess coding integrity and data quality, not as the primary phylogenetic dataset.
 
 #### 3. Alignment
 Nucleotide sequences were aligned using MAFFT via Jalview.
+
 Protein sequences were also aligned to explore amino-acid-level similarity.
+
 Alignments were trimmed to remove poorly aligned or unreliable regions.
 
 #### 4. Phylogenetic Analysis
 Neighbour-Joining trees were generated in Jalview.
-Nucleotide trees were used as the primary evidence for sample identification.
+
+Nucleotide trees constructed in iTOL were used as the primary evidence for sample identification.
+
 Protein trees were used for comparison but interpreted with caution due to ambiguous residues and poor alignment.
