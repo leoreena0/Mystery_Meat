@@ -1,6 +1,9 @@
-### Mystery Meat Assessment
+## Mystery Meat Assessment
+### Overview
+This repository contains GitBash nano file scripts used to concatenate initial samples and convert to fasta format. Also Python scripts with the sequence data used to analyse mitochondrial DNA sequences and identify the phylogenetic placement of unknown (“mystery”) samples. The project uses Biopython to translate nucleotide sequences, explore open reading frames (ORFs) and generate protein sequences for comparison. Nucleotide and amino-acid alignments are then used to construct phylogenetic trees to infer the identity of each of the samples.
 
-#### Repository contents
+
+### Repository contents
 | File / Folder              | Description                                                                          |
 | -------------------------- | ------------------------------------------------------------------------------------ |
 | `all_sequences.fasta`      | Combined FASTA file containing reference mitochondrial sequences and mystery samples |
